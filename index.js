@@ -9,7 +9,7 @@ const port = 3010;
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.send('api checking');
+  res.send('Demo Route');
 });
 
 let hotels = [
